@@ -6,6 +6,7 @@ n=1
 while [ $n -le 10 ]
 do
     echo "$n"
+    sleep 1
     # n=$(( n+1 )) # n增加1
     # (( n++ ))    # n增加1
     ((++n))        # n增加1
